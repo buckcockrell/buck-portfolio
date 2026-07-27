@@ -636,3 +636,61 @@ footer a { text-decoration: none; }
     padding-right: 26px;
   }
 }
+
+
+/* Sequential story navigation */
+
+.next-story {
+  padding: 76px 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.next-story-card {
+  min-height: 245px;
+  padding: clamp(28px, 4vw, 44px);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  transition: transform .2s ease, border-color .2s ease;
+}
+
+.next-story-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+
+.next-story-meta {
+  color: var(--muted);
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.next-story-card strong {
+  max-width: 760px;
+  margin: 30px 0 auto;
+  font-family: "Newsreader", serif;
+  font-size: clamp(1.8rem, 3.6vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -.025em;
+}
+
+.next-story-link {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.browse-all {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: .88rem;
+  text-decoration: none;
+}
+
+.browse-all:hover {
+  color: var(--accent);
+}
