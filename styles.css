@@ -1024,3 +1024,8 @@ a.section-back-to-top:hover {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Homepage v1.0 refinement */
+.hero .eyebrow { display:none; }
+.stories-section .section-heading { margin-bottom: 1.5rem; }
