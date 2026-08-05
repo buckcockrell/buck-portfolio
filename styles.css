@@ -1030,3 +1030,56 @@ a.section-back-to-top:hover {
 /* Homepage v1.0 refinement */
 .hero .eyebrow { display:none; }
 .stories-section .section-heading { margin-bottom: 1.5rem; }
+
+
+/* Mobile responsive refinements - appended August 2026 */
+
+@media (max-width: 768px) {
+  .story-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .story-intro .story-deck {
+    max-width: none;
+  }
+
+  .story-intro .story-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .story-hero h1 {
+    font-size: clamp(2.4rem, 11vw, 4rem);
+    line-height: 1;
+  }
+
+  .story-hero-question {
+    max-width: none;
+  }
+
+  .story-company-logo {
+    max-width: min(55vw, 210px);
+    height: auto;
+  }
+
+  .story-kicker {
+    gap: 12px;
+  }
+
+  .story-tags {
+    gap: 8px;
+  }
+
+  .story-tags li {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-hero h1 {
+    font-size: clamp(2.1rem, 12vw, 3rem);
+  }
+
+  .story-company-logo {
+    max-width: 65vw;
+  }
+}
