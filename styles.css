@@ -828,6 +828,7 @@ a.section-back-to-top:hover {
 .story-kicker {
   min-height: 72px;
   padding: 0 0 16px;
+  margin-bottom: 18px;
 }
 
 .story-number {
